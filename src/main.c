@@ -38,10 +38,10 @@ static void main_loop(float delta_time);
 
 
 int main(int argc, char **argv) {
-    log_info("some");
+    log_info("Streaker");
 
     // init e (environment)
-    L.window = e_window_new("some");
+    L.window = e_window_new("Streaker");
     L.input = e_input_new(L.window);
     L.gui = e_gui_new(L.window);
 
